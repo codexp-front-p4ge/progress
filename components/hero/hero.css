@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    background-color: #82E2A0;
+}
+.hero{
+    width: 100%;
+}
+.hero__logo{
+    display: flex;    
+    width: 100%;
+    justify-content: center;
+}
+.hero__p{
+text-align: center;
+}
+
+.hero__logo-img{
+    width: 50%;
+    margin: auto;
+}
+.hero__img-img{
+    width: 75%;
+    align-items: center;
+}
+.hero__img{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
