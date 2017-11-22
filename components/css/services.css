@@ -60,11 +60,11 @@ html, body {
     }
 
     .services-icon__demo--3 {
-        order: 3; 
+        order: 2; 
     }
 
     .services-icon__demo--4 {
-        order: 3; 
+        order: 1; 
     }
 
     .services-phone {
