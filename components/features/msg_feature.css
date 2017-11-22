@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;    
+}
+
+.feature {
+    width: 90%;
+    margin: 0 auto;    
+}
+
+.feature__text {
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.feature__h2 {
+    color: #2b3541;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.5rem;
+} 
+
+.feature__p {
+    padding: 0.75rem 3rem 0 3rem;
+    color: #a8b1b8;
+    text-align: center;    
+    line-height: 1.5;
+}
+
+.feature__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    width: 80%;
+    max-width: 400px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {  
+
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    
+}
+
+@media screen and (min-width: 1201px) {
+
+} 
+    
