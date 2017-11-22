@@ -23,6 +23,9 @@
     width: 100%;
 }
 @media(min-width: 768px){
+    .footer__social{
+        padding: 32px 20%;
+    }
     .footer__info{
         align-content: flex-start;
         display: flex;
