@@ -1,0 +1,17 @@
+.invite {
+    display: flex;
+    justify-content: center;
+}
+.invite__input {
+    padding: 2% 4%;
+    border-radius: 8px 0 0 8px;
+    border-style: none;
+}
+.invite__button {
+    min-width: 30%;
+    padding: 2% 4%;
+    border-radius: 0 8px 8px 0;
+    border-style: none;
+    color: white;
+    background: #51D67B;
+}
