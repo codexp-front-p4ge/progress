@@ -15,45 +15,59 @@ html, body {
     margin: 0 auto;
 }
 
-.services__icon {
-    flex-direction: column;
+.services-icon {
     width: 20%;
     margin: 0 2%;
 }
 
-.services__icon img {
+.services-icon__demo {
     width: 100%;
 }
 
-.services__phone {
+.services-phone {
     width: 50%;
 }
 
-.services__phone img{
+.services-phone__demo{
     width: 100%;
 }
 
 @media screen and (min-width: 992px) {
+
     .services {
-        width: 90%;
+        width: 95%;
         align-items: center;
     }
 
-    .services__icon {
+    .services-icon {
+        display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         width: 35%;
     }
 
-    .services__icon img {
+    .services-icon__demo {
         width: 40%;
         margin: 3%;
     }
 
-    .services__icon:nth-child(3,7) {
-        order: 1;
+    .services-icon__demo--1 {
+        order: 4; 
     }
 
-    .services__icon:nth-child(4,8) {
-        order: 2;
+    .services-icon__demo--2 {
+        order: 3; 
+    }
+
+    .services-icon__demo--3 {
+        order: 3; 
+    }
+
+    .services-icon__demo--4 {
+        order: 3; 
+    }
+
+    .services-phone {
+        width: 50%;
     }
 }
