@@ -1,13 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Muli:200,400,700" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Progress</title>
 </head>
 <body>
-    <h1>Projeto em desenvolvimento</h1>
+    <header class="hero">
+        <div class="hero--size">
+            <div class="hero__title">
+                <figure class="hero__title-figura">
+                    <img class="hero__title-figura--size-img" src="img/logo-progress.png" alt="Logo_progress">
+                </figure>
+                <p class="hero__title-texto">A new way for service providers and consumers to track project progression.</p>
+            </div>
+            <figure class="hero__phone">
+                <img src="img/phone-hero.png" class="hero__phone--size-img" alt="Phone_Hero">
+            </figure>
+        </div>
+    </header>
+    <main>
+        <section>
+            <article class="feature">
+                <div class="feature-info feature__demo--float">
+                    <h2 class="feature-info__title">Tracks projects easily</h2>
+                    <p class="feature-info__text">Providers can give updates, share status, request updates, and require payments in one efficient tool. Simple, easy, progress.</p>
+                </div>
+                <img alt="imagem de duas conversas de monitoramento de serviços" class="feature__demo feature__demo--floatLeft" src="img/codeMobile.PNG">
+                <div class="feature-info feature__demo--float">
+                    <h2 class="feature-info__title">Clear communication</h2>
+                    <p class="feature-info__text">Progress allow direct communication between the consumer and service provider. No more waiting for call backs, missing emails, or lost paperwork.</p>
+                </div>
+            </article>
+            <article class="feature flex__reverse">
+                <img alt="tabela com custos dos serviços" class="feature__demo" src="img/tableMobile.PNG">
+                <div class="feature-info">
+                    <h2 class="feature-info__title">Estimate, approve, pay</h2>
+                    <p class="feature-info__text">The major steps of a service job are made simple with Progress. in one location, information and updateson project estimates and scopes of work are shared between provider and consumer.</p>
+                </div>
+            </article>
+        </section>
+        <section class="bring">
+            <h1 class="bring-title">Bring Your Own Business</h1>
+            <div class="services">
+                <div class="services-icon services-icon--left">
+                    <img class="services-icon__demo services-icon__demo--1" src="img/icon1.png" alt="icon detail">
+                    <img class="services-icon__demo services-icon__demo--2" src="img/icon2.png" alt="icon flower">
+                    <img class="services-icon__demo services-icon__demo--4" src="img/icon3.png" alt="icon grave">
+                    <img class="services-icon__demo services-icon__demo--3" src="img/icon4.png" alt="icon pc">
+                </div>
+                <div class="services-phone">
+                    <img class="services-phone__demo" src="img/phone.png" alt="phone">
+                </div>
+                <div class="services-icon services-icon--right">
+                    <img class="services-icon__demo services-icon__demo--2" src="img/icon5.png" alt="icon bug">
+                    <img class="services-icon__demo services-icon__demo--1" src="img/icon6.png" alt="icon tool">
+                    <img class="services-icon__demo services-icon__demo--3" src="img/icon7.png" alt="icon mech">
+                    <img class="services-icon__demo services-icon__demo--4" src="img/icon8.png" alt="icon garden">
+                </div>
+            </div>
+            <div class="bring-text">
+                <h2 class="bring-subtitle">Flexible Platform</h2>
+                <p class="bring-parag">We are an industry agnostic platform. If you can track it, you can Progress it! Progress makes it easy for service providers to connect directly with their customers.</p>
+            </div>
+            <form class="invite">
+                <input class="invite__input" type="email" placeholder="Add your email address">
+                <button class="invite__button">Invite me</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__social">Follow along on Twitter for all the latest news! <span class="footer__bold">@Progress_App</span></p>
+        <p class="footer__info">© 2014 Shooting Brake Design</p>
+    </footer>
 </body>
 </html>
