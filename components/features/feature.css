@@ -9,6 +9,7 @@
 
 .feature__text {
     padding: 1.5rem 0 1.5rem 0;
+    min-width: 400px;
 }
 
 .feature__h2 {
@@ -37,14 +38,58 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {  
 
+    .flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;        
+    }
+
+    .flex__order {
+        order: 1;
+    }
+
+    .flex__reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+ 
 
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
-    
+    .flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;        
+    }
+
+    .flex__order {
+        order: 1;
+    }
+
+    .flex__reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }    
+
 }
 
 @media screen and (min-width: 1201px) {
+
+    .flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;        
+    }
+
+    .flex__order {
+        order: 1;
+    }
+
+    .flex__reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
 
 } 
     
