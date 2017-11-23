@@ -2,11 +2,391 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;    
+    font-family: 'Open Sans', sans-serif;
 }
 
 html,
-body {   
+body {
     height: 100%;
     width: 100%;
+}
+
+
+/* Inicio Hero */
+
+.hero {
+    background-color: #82E2A0;
+    color: white;
+}
+
+.hero--size {
+    width: 100%;
+}
+
+.hero__title {
+    width: 100%;
+    justify-content: center;
+}
+
+.hero__title-figura {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero__title-figura--size-img {
+    width: 300px;
+    margin: auto;
+}
+
+.hero__title-texto {
+    font-size: 2em;
+    margin-top: -25px;
+    padding: 0 50px 25px 50px;
+    text-align: center;
+}
+
+.hero__phone {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.hero__phone--size-img {
+    width: 75%;
+    align-items: center;
+}
+
+
+/* Fim Hero */
+
+
+/* Inicio features */
+
+.feature {
+    width: 90%;
+    padding: 2rem 0 2rem 0;
+    margin: 0 auto;
+}
+
+.feature-info {
+    padding: 0 2.5rem 0 2.5rem;
+}
+
+.feature-info__title {
+    color: #2b3541;
+    text-align: center;
+    line-height: 2;
+    font-size: 1.25rem;
+}
+
+.feature-info__text {
+    color: #a8b1b8;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.feature__demo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    width: 75%;
+    max-width: 300px;
+}
+
+
+/* Fim features */
+
+
+/* Inicio Bring */
+
+.bring {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F4F4F6;
+    padding: 10% 0;
+}
+
+.bring-title,
+.bring-text {
+    text-align: center;
+}
+
+.bring-title,
+.services,
+.bring-text {
+    width: 70%;
+    margin: 5% 0;
+}
+
+.bring-title {
+    font-size: 2rem;
+}
+
+.services {
+    display: flex;
+    margin: 0 auto;
+}
+
+.services-icon {
+    width: 20%;
+    margin: 0 2%;
+}
+
+.services-icon__demo {
+    width: 100%;
+}
+
+.services-phone {
+    width: 50%;
+    margin: 0 2%;
+}
+
+.services-phone__demo {
+    width: 100%;
+}
+
+.bring-text {
+    padding: 0 8%;
+    color: grey;
+}
+
+.bring-subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 3%;
+}
+
+.bring-parag {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+}
+
+
+/* FORM */
+
+.invite {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 30px;
+}
+
+.invite__input {
+    padding: 2% 4%;
+    border-radius: 8px 0 0 8px;
+    border-style: none;
+    font-size: 0.7rem;
+}
+
+.invite__button {
+    min-width: 30%;
+    padding: 2% 4%;
+    border-radius: 0 8px 8px 0;
+    border-style: none;
+    color: white;
+    background: #51D67B;
+    font-size: 0.7rem;
+}
+
+
+/* Fim Bring */
+
+
+/* inicio footer */
+
+.footer {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+}
+
+.footer__social {
+    background-color: #59d57f;
+    box-sizing: border-box;
+    color: #ffffff;
+    padding: 16px 20%;
+    margin: 0;
+}
+
+.footer__bold {
+    font-weight: bold;
+}
+
+.footer__info {
+    background-color: #2e3440;
+    box-sizing: border-box;
+    color: #8c96a0;
+    font-size: 0.8rem;
+    padding: 16px 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+/* fim footer */
+
+@media screen and (min-width: 768px) {
+    /* Inicio Hero */
+    .hero--size {
+        display: flex;
+    }
+    .hero__title-figura {
+        flex-direction: column-reverse;
+        padding-top: 50px;
+        padding-left: 15px;
+    }
+    .hero__title-figura--size-img {
+        width: 90%;
+    }
+    .hero__title-texto {
+        font-size: 3em;
+        text-align: left;
+        min-height: 200px;
+        padding: 25px 50px;
+    }
+    .hero__phone {
+        padding-top: 50px;
+    }
+    .hero__phone--size-img {
+        width: 100%;
+        align-items: center;
+    }
+    /* Fim Hero */
+    /* Inicio features */
+    .feature {
+        overflow: hidden;
+    }
+    .feature-info {
+        width: 50%;
+        padding: 0;
+        align-self: center;
+    }
+    .feature-info__title {
+        text-align: left;
+        max-width: 360px;
+    }
+    .feature-info__text {
+        text-align: left;
+        max-width: 300px;
+    }
+    .feature__demo {
+        margin: 0;
+    }
+    .feature__demo--float {
+        float: right;
+        padding-top: 3.5rem;
+    }
+    .feature__demo--floatLeft {
+        float: left;
+        margin: 0;
+    }
+    .flex__reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    /* Fim features */
+    /* Inicio Bring */
+    .bring-title {
+        font-size: 3rem;
+    }
+    .bring-subtitle {
+        font-size: 1.7rem;
+    }
+    .bring-parag {
+        font-size: 1rem;
+    }
+    .invite {
+        height: 40px;
+    }
+    .invite__input,
+    .invite__button {
+        font-size: 0.8rem;
+    }
+    .invite__input {
+        width: 60%;
+    }
+    .invite__button {
+        width: 40%;
+    }
+    /* Fim Bring */
+    /* inicio footer */
+    .footer__social {
+        padding: 32px 20%;
+    }
+    .footer__info {
+        align-content: flex-start;
+        display: flex;
+        padding-left: 3%;
+    }
+    /* fim footer */
+}
+
+@media screen and (min-width: 992px) {
+    /* Inicio Hero */
+    .hero--size {
+        max-width: 1130px;
+        margin: auto;
+    }
+    .hero__title {
+        padding-top: 150px;
+    }
+    .hero__title-figura--size-img {
+        max-width: 480px;
+    }
+    .hero__phone--size-img {
+        max-width: 540px;
+        align-items: center;
+    }
+    /* Fim Hero */
+    /* Inicio Bring */
+    .services {
+        width: 95%;
+        align-items: center;
+    }
+    .services-icon {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 40%;
+        justify-content: center;
+    }
+    .services-icon__demo {
+        width: 32%;
+        height: 100%;
+        margin: 3% 6%;
+    }
+    .services-icon__demo--1 {
+        order: 1;
+    }
+    .services-icon__demo--2 {
+        order: 2;
+    }
+    .services-icon__demo--3 {
+        order: 3;
+    }
+    .services-icon__demo--4 {
+        order: 4;
+    }
+    .services-phone {
+        width: 35%;
+        margin: 0;
+    }
+    .invite {
+        width: 40%;
+    }
+    /* Fim Bring */
+}
+
+@media screen and (min-width: 1200px) {
+    /* Inicio Bring */
+    .services-icon__demo {
+        width: 30%;
+        margin: 4% 8%;
+    }
+    /* Fim Bring */
 }
