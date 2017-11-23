@@ -105,6 +105,10 @@ body {
 
 /* Inicio Bring */
 
+.bring-fundo {
+    background: #F4F4F6;
+}
+
 .bring {
     width: 100%;
     display: flex;
@@ -202,6 +206,7 @@ body {
 /* inicio footer */
 
 .footer {
+    background-color: #2e3440;
     display: flex;
     flex-flow: column nowrap;
     text-align: center;
@@ -220,7 +225,6 @@ body {
 }
 
 .footer__info {
-    background-color: #2e3440;
     box-sizing: border-box;
     color: #8c96a0;
     font-size: 0.8rem;
@@ -261,6 +265,7 @@ body {
     /* Fim Hero */
     /* Inicio features */
     .feature {
+        margin: auto;
         overflow: hidden;
     }
     .feature-info {
@@ -277,7 +282,7 @@ body {
         max-width: 300px;
     }
     .feature__demo {
-        margin: 0;
+        margin: 0 0 0 auto;
     }
     .feature__demo--float {
         float: right;
@@ -285,7 +290,6 @@ body {
     }
     .feature__demo--floatLeft {
         float: left;
-        margin: 0;
     }
     .flex__reverse {
         display: flex;
@@ -330,6 +334,10 @@ body {
 }
 
 @media screen and (min-width: 992px) {
+    .max-size-global {
+        max-width: 1150px;
+        margin: auto;
+    }
     /* Inicio Hero */
     .hero--size {
         max-width: 1130px;
@@ -383,6 +391,12 @@ body {
         width: 40%;
     }
     /* Fim Bring */
+    .feature__demo {
+        max-width: 400px;
+    }
+    .footer__info {
+        padding-left: 50px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
