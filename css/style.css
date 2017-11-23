@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
 }
 
 html,
@@ -44,6 +45,7 @@ body {
     margin-top: -25px;
     padding: 0 50px 25px 50px;
     text-align: center;
+    font-weight: 200;
 }
 
 .hero__phone {
@@ -74,6 +76,7 @@ body {
 }
 
 .feature-info__title {
+    font-weight: 700;
     color: #2b3541;
     text-align: center;
     line-height: 2;
