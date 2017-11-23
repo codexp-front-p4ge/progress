@@ -1,104 +1,83 @@
 * {
-    box-sizing: border-box;    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
 }
 
 .feature {
     width: 90%;
-    margin: 0 auto;    
+    padding: 2rem 0 2rem 0;
+    margin: 0 auto; 
 }
 
+.feature-info {
+    padding: 0 2.5rem 0 2.5rem;
+}    
 
-
-.feature__text {
-    padding: 1.5rem 0 1.5rem 0;
-    max-width: 400px;
-    max-height: 200px;
-}
-
-.feature__h2 {
+.feature-info__title {
     color: #2b3541;
     text-align: center;
-    line-height: 1.5;
-    font-size: 1.5rem;
+    line-height: 2;
+    font-size: 1.25rem;
 } 
 
-.feature__p {
-    padding: 0.75rem 3rem 0 3rem;
+.feature-info__text {
     color: #a8b1b8;
     text-align: center;    
     line-height: 1.5;
 }
 
-.feature__img {
+.feature__demo   {
     display: block;
     margin-left: auto;
     margin-right: auto;   
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    width: 80%;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    width: 75%;
     max-width: 300px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {  
+@media screen and (min-width: 768px) {  
 
-    .flex {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap; 
-        justify-content: flex-end;       
+    .feature {
+        overflow: hidden;
     }
 
-    .flex__order {
-        order: -1;
+    .feature-info {
+        width: 50%;
+        padding: 0;
+        align-self: center;        
     }
 
-    .flex__reverse {
-        display: flex;
-        flex-direction: row-reverse;
+    .feature-info__title {
+        text-align: left;
+        max-width: 360px;
     }
 
-    .feature__img {
+    .feature-info__text {
+        text-align: left;
+        max-width: 300px;
+    }
+
+    .feature__demo {
         margin: 0;
     }
+
+    .feature__demo--float {
+        float: right;
+        padding-top: 3.5rem;
+    }
+
+    .feature__demo--floatLeft {
+        float: left;
+        margin: 0;
+    }
+
+    .flex__reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;        
+    }
  
-
 }
-
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    
-    .flex {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap-reverse;        
-    }
-
-    .flex__order {
-        order: -1;
-    }
-
-    .flex__reverse {
-        display: flex;
-        flex-direction: row-reverse;
-    }    
-
-}
-
-@media screen and (min-width: 1201px) {
-
-    .flex {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap-reverse;        
-    }
-
-    .flex__order {
-        order: -1;
-    }
-
-    .flex__reverse {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
-} 
     
